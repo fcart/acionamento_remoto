@@ -60,15 +60,11 @@ sudo nano /etc/mosquitto/conf.d/default.conf
 Cole a configuração abaixo. Ela desabilita conexões anônimas, exige a senha e ativa a criptografia TLS na porta 8883.
 
 Plaintext
-# ==========================================
 # 1. Configurações de Segurança e Senha
-# ==========================================
 allow_anonymous false
 password_file /etc/mosquitto/passwd
 
-# ==========================================
 # 2. Configuração de Rede e Criptografia
-# ==========================================
 # Porta 8883 é o padrão para MQTT seguro (MQTTS)
 listener 8883
 
