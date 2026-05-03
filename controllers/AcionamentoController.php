@@ -1,5 +1,8 @@
 <?php
 // Arquivo: controllers/AcionamentoController.php
+// Para instalação do PhpMqqt utilize o comando abaixo:
+// composer require php-mqtt/client
+//
 require '../vendor/autoload.php';
 
 use \PhpMqtt\Client\MqttClient;
