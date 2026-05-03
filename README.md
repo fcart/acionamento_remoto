@@ -189,3 +189,7 @@ Com essa configuração:
 * 🚫 Mitigação de interceptação e falsificação
 
 Seu broker MQTT está pronto para uso seguro em produção ou validação no TCC.
+
+Este guia e os códigos apresentados fazem parte do Trabalho de Conclusão de Curso (TCC) de Engenharia da Universidade Virtual do Estado de São Paulo (Univesp).
+
+
