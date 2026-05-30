@@ -29,7 +29,7 @@ class MqttService {
                 ->setKeepAliveInterval(30);
 
             $mqtt->connect($connectionSettings, true);
-            $mqtt->publish($topic, $payload, 1);
+            $mqtt->publish($topic, $payload, 2);
             $mqtt->disconnect();
 
             return ["sucesso" => true, "topico" => $topic];
