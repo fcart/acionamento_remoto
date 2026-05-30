@@ -31,8 +31,8 @@ const String api_callback_url = "http://IP_DO_BROKER/univesp/callback.php";
 // ============================================================================
 // 4. MAPEAMENTO FÍSICO DE HARDWARE (GPIOs DO ESP32)
 // ============================================================================
-const int PINO_RELE_PORTAO = 26; // Acionamento do motor do portão basculante
-const int PINO_RELE_SIRENE = 27; // Acionamento do alerta sonoro/visual
+const int PINO_RELE_PORTAO = 38; // Acionamento do motor do portão basculante
+const int PINO_RELE_SIRENE = 39; // Acionamento do alerta sonoro/visual
 
 
 WiFiClientSecure espClient;
